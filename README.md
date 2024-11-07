@@ -26,7 +26,9 @@ Upload the YOLOv8 Dataset:
 
 Ensure your dataset is available in Google Drive. Mount Google Drive in Colab:
 python
-Copy code
+
+
+
 from google.colab import drive
 drive.mount('/content/drive')
 Navigate to your dataset folder in your drive and load it for training.
@@ -37,7 +39,9 @@ Install Required Dependencies:
 
 Install the required dependencies in Colab:
 python
-Copy code
+
+
+
 %pip install -U -r yolov5/requirements.txt
 %pip install ultralytics
 Configure and Train the Model:
@@ -46,10 +50,16 @@ Configure and Train the Model:
 
 
 Configure the dataset path and start training the model with YOLOv9.
+
+
 Usage
+
+
 Running the Model:
 Execute the Colab notebook to train and evaluate the model on citrus fruit detection. You may adjust hyperparameters to optimize performance.
 Viewing the Results:
+
+
 The model’s predictions, including the fruit counts, will be displayed in the output section of the notebook.
 Additionally, integrate the model output with a Java-based frontend web page to display the detection results and count.
 
